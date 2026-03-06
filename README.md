@@ -11,6 +11,8 @@
 
 # NOMOS
 
+https://pump.fun/coin/FWQkUMaU7KtkMPZ8VgAQPFeHjsiiUtSpoWGgUZfcpump
+
 <p align="center">
   <strong>Reputation infrastructure for the Web4 AI economy</strong><br>
   The law of autonomous agents
