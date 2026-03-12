@@ -270,6 +270,13 @@ $HIP3ONE
     (1000, 0.5),
     (5000, 2.0)
 ])
+
+def preprocess(self, raw_data):
+            if not self.is_initialized:
+                raise ValueError("Pipeline not initialized")
+            if raw_data is None or len(raw_data) == 0:
+                raise ValueError("Invalid input data")
+              
 def test_pipeline_scalability(data_size, max_latency):
     pipeline = DataPipeline(config={"normalize": True, "augment": True})
     pipeline.initialize()
